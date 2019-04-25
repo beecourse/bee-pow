@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:bee-pow-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -180,9 +180,9 @@ U 1 1 5CB87A36
 P 8200 2150
 F 0 "C8" H 8318 2196 50  0000 L CNN
 F 1 "220µF" H 8318 2105 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 8238 2000 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm" H 8238 2000 50  0001 C CNN
 F 3 "~" H 8200 2150 50  0001 C CNN
-F 4 "RAD 220/35" H 8200 2150 50  0001 C CNN "order number"
+F 4 "RND 150ECR AZ" H 8200 2150 50  0001 C CNN "order number"
 	1    8200 2150
 	1    0    0    -1  
 $EndComp
@@ -303,9 +303,9 @@ U 1 1 5CBEC5C9
 P 8200 2550
 F 0 "C9" H 8318 2596 50  0000 L CNN
 F 1 "220µF" H 8318 2505 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 8238 2400 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm" H 8238 2400 50  0001 C CNN
 F 3 "~" H 8200 2550 50  0001 C CNN
-F 4 "RAD 220/35" H 8200 2550 50  0001 C CNN "order number"
+F 4 "RND 150ECR AZ" H 8200 2550 50  0001 C CNN "order number"
 	1    8200 2550
 	1    0    0    -1  
 $EndComp
@@ -422,30 +422,6 @@ Connection ~ 7500 2750
 Wire Wire Line
 	7500 2750 7650 2750
 $Comp
-L Connector:Screw_Terminal_01x03 J5
-U 1 1 5CBF7E7D
-P 1300 3150
-F 0 "J5" H 1250 3350 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 600 2900 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 1300 3150 50  0001 C CNN
-F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=C100%252FAKL101%2523RIA.pdf" H 1300 3150 50  0001 C CNN
-F 4 "AKL 101-03" H 1300 3150 50  0001 C CNN "order number"
-	1    1300 3150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J6
-U 1 1 5CBF7FDC
-P 1300 3950
-F 0 "J6" H 1300 4050 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 1000 3700 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1300 3950 50  0001 C CNN
-F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=C100%252FAKL101%2523RIA.pdf" H 1300 3950 50  0001 C CNN
-F 4 "AKL 101-02" H 1300 3950 50  0001 C CNN "order number"
-	1    1300 3950
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:+15V #PWR0103
 U 1 1 5CBF8899
 P 9200 1950
@@ -473,30 +449,6 @@ Connection ~ 8700 1950
 Wire Wire Line
 	8700 2750 9000 2750
 Connection ~ 8700 2750
-$Comp
-L Diode:1N4001 D12
-U 1 1 5CBFC8F6
-P 7100 1200
-F 0 "D12" H 7100 1416 50  0000 C CNN
-F 1 "1N4001" H 7100 1325 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P12.70mm_Horizontal" H 7100 1025 50  0001 C CNN
-F 3 "https://cdn-reichelt.de/documents/datenblatt/A100/1N400x_FAI.pdf" H 7100 1200 50  0001 C CNN
-F 4 "1N 4001" H 7100 1200 50  0001 C CNN "order number"
-	1    7100 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N4001 D15
-U 1 1 5CC00088
-P 7100 3500
-F 0 "D15" H 7100 3284 50  0000 C CNN
-F 1 "1N4001" H 7100 3375 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P12.70mm_Horizontal" H 7100 3325 50  0001 C CNN
-F 3 "https://cdn-reichelt.de/documents/datenblatt/A100/1N400x_FAI.pdf" H 7100 3500 50  0001 C CNN
-F 4 "1N 4001" H 7100 3500 50  0001 C CNN "order number"
-	1    7100 3500
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6700 2750 6700 3150
 Wire Wire Line
@@ -504,26 +456,6 @@ Wire Wire Line
 Connection ~ 6700 2750
 Wire Wire Line
 	6700 2750 6800 2750
-Text Notes 6500 1600 1    50   ~ 0
-Alternativ \nSMD oder DIL
-Wire Notes Line
-	6300 900  7550 900 
-Wire Notes Line
-	7550 900  7550 1650
-Wire Notes Line
-	7550 1650 6300 1650
-Wire Notes Line
-	6300 1650 6300 900 
-Wire Notes Line
-	6300 3050 7550 3050
-Wire Notes Line
-	7550 3050 7550 3800
-Wire Notes Line
-	7550 3800 6300 3800
-Wire Notes Line
-	6300 3800 6300 3050
-Text Notes 6500 3700 1    50   ~ 0
-Alternativ \nSMD oder DIL
 Text GLabel 9100 1750 2    50   Output ~ 0
 U_B+
 Text GLabel 9150 2950 2    50   Output ~ 0
@@ -546,26 +478,14 @@ Wire Wire Line
 	9000 2750 9200 2750
 Wire Wire Line
 	6250 2350 6500 2350
-Text GLabel 1600 3050 2    50   Input ~ 0
+Text GLabel 1300 3150 2    50   Input ~ 0
 U1
-Text GLabel 1600 3150 2    50   Input ~ 0
+Text GLabel 1300 3450 2    50   Input ~ 0
 GND
-Text GLabel 1600 3250 2    50   Input ~ 0
+Text GLabel 1300 3250 2    50   Input ~ 0
 U2
-Wire Wire Line
-	1500 3050 1600 3050
-Wire Wire Line
-	1500 3150 1600 3150
-Wire Wire Line
-	1500 3250 1600 3250
-Text GLabel 1600 3850 1    50   Input ~ 0
+Text GLabel 1950 3350 2    50   Input ~ 0
 U3
-Text GLabel 1600 4050 2    50   Input ~ 0
-GND
-Wire Wire Line
-	1500 3950 1600 3950
-Wire Wire Line
-	1500 4050 1600 4050
 $Comp
 L Device:C C4
 U 1 1 5CC37004
@@ -596,9 +516,9 @@ U 1 1 5CC37014
 P 8150 5500
 F 0 "C7" H 8268 5546 50  0000 L CNN
 F 1 "220µF" H 8268 5455 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 8188 5350 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm" H 8188 5350 50  0001 C CNN
 F 3 "~" H 8150 5500 50  0001 C CNN
-F 4 "RAD 220/35" H 8150 5500 50  0001 C CNN "order number"
+F 4 "RND 150ECR AZ" H 8150 5500 50  0001 C CNN "order number"
 	1    8150 5500
 	1    0    0    -1  
 $EndComp
@@ -614,20 +534,6 @@ F 4 "1N 4001 SMD " V 8650 5500 50  0001 C CNN "order number"
 	1    8650 5500
 	0    1    1    0   
 $EndComp
-$Comp
-L Diode:1N4001 D11
-U 1 1 5CC37024
-P 7050 4900
-F 0 "D11" H 7050 5116 50  0000 C CNN
-F 1 "1N4001" H 7050 5025 50  0000 C CNN
-F 2 "Diode_SMD:D_MELF_Handsoldering" H 7050 4725 50  0001 C CNN
-F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A400%252FSMD1N400%2523DIO.pdf" H 7050 4900 50  0001 C CNN
-F 4 "1N 4001 SMD " V 7050 4900 50  0001 C CNN "order number"
-	1    7050 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7350 5300 7450 5300
 Wire Wire Line
 	7600 5300 7600 5350
 Wire Wire Line
@@ -641,23 +547,7 @@ Wire Wire Line
 	8650 5300 8650 5350
 Connection ~ 8150 5300
 Wire Wire Line
-	6750 5300 6650 5300
-Wire Wire Line
 	6450 5300 6450 5350
-Wire Wire Line
-	6900 4900 6650 4900
-Wire Wire Line
-	6650 4900 6650 5300
-Connection ~ 6650 5300
-Wire Wire Line
-	6650 5300 6450 5300
-Wire Wire Line
-	7200 4900 7450 4900
-Wire Wire Line
-	7450 4900 7450 5300
-Connection ~ 7450 5300
-Wire Wire Line
-	7450 5300 7600 5300
 Wire Wire Line
 	8650 5700 8650 5650
 Wire Wire Line
@@ -710,28 +600,6 @@ Wire Wire Line
 Wire Wire Line
 	8650 5300 8950 5300
 Connection ~ 8650 5300
-$Comp
-L Diode:1N4001 D10
-U 1 1 5CC3708A
-P 7050 4550
-F 0 "D10" H 7050 4766 50  0000 C CNN
-F 1 "1N4001" H 7050 4675 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P12.70mm_Horizontal" H 7050 4375 50  0001 C CNN
-F 3 "https://cdn-reichelt.de/documents/datenblatt/A100/1N400x_FAI.pdf" H 7050 4550 50  0001 C CNN
-F 4 "1N 4001" H 7050 4550 50  0001 C CNN "order number"
-	1    7050 4550
-	1    0    0    -1  
-$EndComp
-Text Notes 6450 4900 1    50   ~ 0
-Alternativ \nSMD oder DIL
-Wire Notes Line
-	6250 4250 7500 4250
-Wire Notes Line
-	7500 4250 7500 5000
-Wire Notes Line
-	7500 5000 6250 5000
-Wire Notes Line
-	6250 5000 6250 4250
 Text GLabel 9050 5100 2    50   Output ~ 0
 U_B2
 Text GLabel 6200 5700 0    50   Output ~ 0
@@ -767,115 +635,12 @@ F 3 "" H 9150 5300 50  0001 C CNN
 	1    9150 5300
 	0    1    1    0   
 $EndComp
-$Comp
-L Jumper:Jumper_3_Bridged12 JP2
-U 1 1 5CBEFB5C
-P 4750 5300
-F 0 "JP2" V 4704 5366 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 4795 5366 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4750 5300 50  0001 C CNN
-F 3 "~" H 4750 5300 50  0001 C CNN
-	1    4750 5300
-	0    -1   1    0   
-$EndComp
 Text GLabel 4750 4950 1    50   Input ~ 0
 U_B+
-Wire Wire Line
-	4750 4950 4750 5050
-Text GLabel 4750 5650 3    50   Input ~ 0
-U3
-$Comp
-L Jumper:Jumper_3_Bridged12 JP1
-U 1 1 5CC01FAF
-P 2200 3950
-F 0 "JP1" V 2246 4017 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 2155 4017 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2200 3950 50  0001 C CNN
-F 3 "~" H 2200 3950 50  0001 C CNN
-	1    2200 3950
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	1600 3950 1600 3850
-Wire Wire Line
-	1600 3950 2050 3950
-Connection ~ 1600 3950
-Text GLabel 2400 3700 2    50   Output ~ 0
-U_B2
-Text GLabel 2400 4200 2    50   Output ~ 0
-U3
-Wire Wire Line
-	4750 5650 4750 5550
-$Comp
-L Device:D_Schottky D4
-U 1 1 5CBF041B
-P 5650 1600
-F 0 "D4" H 5650 1384 50  0000 C CNN
-F 1 "D_Schottky" H 5650 1475 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 5650 1600 50  0001 C CNN
-F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A400%252FSTPS2H100.pdf" H 5650 1600 50  0001 C CNN
-F 4 "STPS 2H100" H 5650 1600 50  0001 C CNN "order number"
-	1    5650 1600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Schottky D7
-U 1 1 5CBFE538
-P 5650 3100
-F 0 "D7" H 5650 2884 50  0000 C CNN
-F 1 "D_Schottky" H 5650 2975 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 5650 3100 50  0001 C CNN
-F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A400%252FSTPS2H100.pdf" H 5650 3100 50  0001 C CNN
-F 4 "STPS 2H100" H 5650 3100 50  0001 C CNN "order number"
-	1    5650 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky D8
-U 1 1 5CC03317
-P 5700 4950
-F 0 "D8" H 5700 4734 50  0000 C CNN
-F 1 "D_Schottky" H 5700 4825 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 5700 4950 50  0001 C CNN
-F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A400%252FSTPS2H100.pdf" H 5700 4950 50  0001 C CNN
-F 4 "STPS 2H100" H 5700 4950 50  0001 C CNN "order number"
-	1    5700 4950
-	-1   0    0    1   
-$EndComp
-Text Notes 5200 1850 1    50   ~ 0
-Alternativ \nSMD oder DIL
-Text Notes 5200 3350 1    50   ~ 0
-Alternativ \nSMD oder DIL
-Text Notes 5250 5200 1    50   ~ 0
-Alternativ \nSMD oder DIL
-Wire Notes Line
-	5000 1300 6000 1300
-Wire Notes Line
-	6000 1300 6000 2050
-Wire Notes Line
-	5000 2050 5000 1300
-Wire Notes Line
-	5000 2050 6000 2050
-Wire Notes Line
-	5000 2650 6000 2650
-Wire Notes Line
-	6000 2650 6000 3400
-Wire Notes Line
-	6000 3400 5000 3400
-Wire Notes Line
-	5000 3400 5000 2650
 Text GLabel 4850 1950 0    50   Input ~ 0
 U1
 Text GLabel 4850 2750 0    50   Input ~ 0
 U2
-Wire Notes Line
-	5050 4650 6050 4650
-Wire Notes Line
-	6050 4650 6050 5400
-Wire Notes Line
-	6050 5400 5050 5400
-Wire Notes Line
-	5050 5400 5050 4650
 $Comp
 L Device:LED D1
 U 1 1 5CCB2B98
@@ -910,7 +675,7 @@ F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1800 6650 50  0001
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A500%252FLG_R971_GER_ENG_TDS.pdf" H 1800 6650 50  0001 C CNN
 F 4 "OSO LGR971" V 1800 6650 50  0001 C CNN "order number"
 	1    1800 6650
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R2
@@ -951,8 +716,6 @@ $EndComp
 Wire Wire Line
 	1300 6300 1300 6500
 Wire Wire Line
-	1800 6300 1800 6500
-Wire Wire Line
 	2250 6300 2250 6500
 Wire Wire Line
 	1300 6800 1300 6950
@@ -960,8 +723,6 @@ Wire Wire Line
 	1300 6950 1800 6950
 Wire Wire Line
 	2250 6950 2250 6800
-Wire Wire Line
-	1800 6800 1800 6950
 Connection ~ 1800 6950
 Wire Wire Line
 	1800 6950 2250 6950
@@ -979,10 +740,6 @@ Wire Wire Line
 	1800 5850 1800 6000
 Wire Wire Line
 	2250 5850 2250 6000
-Wire Wire Line
-	2400 3700 2200 3700
-Wire Wire Line
-	2200 4200 2400 4200
 Text Notes 8150 7650 0    50   ~ 0
 23.04.2019
 Text Notes 7350 7500 0    50   ~ 0
@@ -1001,4 +758,98 @@ Wire Wire Line
 	4900 5300 5550 5300
 Wire Wire Line
 	5850 5300 6450 5300
+Connection ~ 7450 5300
+Connection ~ 6650 5300
+Wire Wire Line
+	6650 5300 6450 5300
+Wire Wire Line
+	6750 5300 6650 5300
+Wire Wire Line
+	7450 5300 7600 5300
+Wire Wire Line
+	7350 5300 7450 5300
+Wire Wire Line
+	7450 4900 7450 5300
+Wire Wire Line
+	7200 4900 7450 4900
+Wire Wire Line
+	6650 4900 6650 5300
+Wire Wire Line
+	6900 4900 6650 4900
+$Comp
+L Diode:1N4001 D11
+U 1 1 5CC37024
+P 7050 4900
+F 0 "D11" H 7050 5116 50  0000 C CNN
+F 1 "1N4001" H 7050 5025 50  0000 C CNN
+F 2 "Diode_SMD:D_MELF_Handsoldering" H 7050 4725 50  0001 C CNN
+F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A400%252FSMD1N400%2523DIO.pdf" H 7050 4900 50  0001 C CNN
+F 4 "1N 4001 SMD " V 7050 4900 50  0001 C CNN "order number"
+	1    7050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J5
+U 1 1 5CC3BBF3
+P 950 3250
+F 0 "J5" H 868 3567 50  0000 C CNN
+F 1 "Screw_Terminal_01x04" H 868 3476 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-4_P5.08mm" H 950 3250 50  0001 C CNN
+F 3 "~" H 950 3250 50  0001 C CNN
+	1    950  3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 3150 1300 3150
+Wire Wire Line
+	1150 3250 1300 3250
+Wire Wire Line
+	1150 3450 1300 3450
+Wire Wire Line
+	1800 6500 1800 6300
+Text GLabel 1950 3600 2    50   Output ~ 0
+U_B2
+Wire Wire Line
+	1600 3350 1950 3350
+Wire Wire Line
+	1150 3350 1600 3350
+Connection ~ 1600 3350
+Wire Wire Line
+	1600 3850 1600 3350
+$Comp
+L Jumper:Jumper_3_Bridged12 JP2
+U 1 1 5CBEFB5C
+P 4750 5300
+F 0 "JP2" V 4704 5366 50  0000 L CNN
+F 1 "Jumper_3_Bridged12" V 4795 5366 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4750 5300 50  0001 C CNN
+F 3 "~" H 4750 5300 50  0001 C CNN
+	1    4750 5300
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper:Jumper_3_Bridged12 JP1
+U 1 1 5CC01FAF
+P 1750 3850
+F 0 "JP1" V 1796 3917 50  0000 L CNN
+F 1 "Jumper_3_Bridged12" V 1705 3917 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1750 3850 50  0001 C CNN
+F 3 "~" H 1750 3850 50  0001 C CNN
+	1    1750 3850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4750 5650 4750 5550
+Wire Wire Line
+	4750 4950 4750 5050
+Wire Wire Line
+	1950 3600 1750 3600
+Wire Wire Line
+	1750 4100 1950 4100
+Text GLabel 4750 5650 3    50   Input ~ 0
+U3_1
+Text GLabel 1950 4100 2    50   Output ~ 0
+U3_1
+Wire Wire Line
+	1800 6950 1800 6800
 $EndSCHEMATC
