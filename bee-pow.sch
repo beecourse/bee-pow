@@ -852,4 +852,180 @@ Text GLabel 1950 4100 2    50   Output ~ 0
 U3_1
 Wire Wire Line
 	1800 6950 1800 6800
+$Comp
+L Mechanical-emt:Silkscreen_Label H1
+U 1 1 5CC84E73
+P 3000 6900
+F 0 "H1" H 3125 6945 50  0000 L CNN
+F 1 "Silkscreen_Label" H 3125 6854 50  0000 L CNN
+F 2 "Symbol-emt:Text_U_B+_Silkscreen" H 3000 6900 50  0001 C CNN
+F 3 "~" H 3000 6900 50  0001 C CNN
+	1    3000 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical-emt:Silkscreen_Label H2
+U 1 1 5CC86235
+P 3000 7100
+F 0 "H2" H 3125 7145 50  0000 L CNN
+F 1 "Silkscreen_Label" H 3125 7054 50  0000 L CNN
+F 2 "Symbol-emt:Text_U_B+_Silkscreen" H 3000 7100 50  0001 C CNN
+F 3 "~" H 3000 7100 50  0001 C CNN
+	1    3000 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical-emt:Silkscreen_Label H3
+U 1 1 5CC865CE
+P 3000 7300
+F 0 "H3" H 3125 7345 50  0000 L CNN
+F 1 "Silkscreen_Label" H 3125 7254 50  0000 L CNN
+F 2 "Symbol-emt:Text_U_B-_Silkscreen" H 3000 7300 50  0001 C CNN
+F 3 "~" H 3000 7300 50  0001 C CNN
+	1    3000 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical-emt:Silkscreen_Label H4
+U 1 1 5CC8C4D2
+P 3000 7500
+F 0 "H4" H 3125 7545 50  0000 L CNN
+F 1 "Silkscreen_Label" H 3125 7454 50  0000 L CNN
+F 2 "Symbol-emt:Text_U_B-_Silkscreen" H 3000 7500 50  0001 C CNN
+F 3 "~" H 3000 7500 50  0001 C CNN
+	1    3000 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical-emt:Silkscreen_Label H5
+U 1 1 5CC8C802
+P 3900 6900
+F 0 "H5" H 4025 6945 50  0000 L CNN
+F 1 "Silkscreen_Label" H 4025 6854 50  0000 L CNN
+F 2 "Symbol-emt:Text_U_B2_Silkscreen" H 3900 6900 50  0001 C CNN
+F 3 "~" H 3900 6900 50  0001 C CNN
+	1    3900 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical-emt:Silkscreen_Label H6
+U 1 1 5CC8CC95
+P 3900 7100
+F 0 "H6" H 4025 7145 50  0000 L CNN
+F 1 "Silkscreen_Label" H 4025 7054 50  0000 L CNN
+F 2 "Symbol-emt:Text_U_B2_Silkscreen" H 3900 7100 50  0001 C CNN
+F 3 "~" H 3900 7100 50  0001 C CNN
+	1    3900 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical-emt:Silkscreen_Label H7
+U 1 1 5CC8CECB
+P 3900 7300
+F 0 "H7" H 4025 7345 50  0000 L CNN
+F 1 "Silkscreen_Label" H 4025 7254 50  0000 L CNN
+F 2 "Symbol-emt:Symbol_GND_Silkscreen" H 3900 7300 50  0001 C CNN
+F 3 "~" H 3900 7300 50  0001 C CNN
+	1    3900 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical-emt:Silkscreen_Label H8
+U 1 1 5CC8D0ED
+P 3900 7500
+F 0 "H8" H 4025 7545 50  0000 L CNN
+F 1 "Silkscreen_Label" H 4025 7454 50  0000 L CNN
+F 2 "Symbol-emt:Symbol_GND_Silkscreen" H 3900 7500 50  0001 C CNN
+F 3 "~" H 3900 7500 50  0001 C CNN
+	1    3900 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H9
+U 1 1 5CC913F6
+P 5000 6900
+F 0 "H9" H 5100 6949 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5100 6858 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 5000 6900 50  0001 C CNN
+F 3 "~" H 5000 6900 50  0001 C CNN
+	1    5000 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H10
+U 1 1 5CC9212B
+P 5000 7400
+F 0 "H10" H 5100 7449 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5100 7358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 5000 7400 50  0001 C CNN
+F 3 "~" H 5000 7400 50  0001 C CNN
+	1    5000 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H11
+U 1 1 5CC92855
+P 5950 6900
+F 0 "H11" H 6050 6949 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6050 6858 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 5950 6900 50  0001 C CNN
+F 3 "~" H 5950 6900 50  0001 C CNN
+	1    5950 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H12
+U 1 1 5CC92D13
+P 5950 7400
+F 0 "H12" H 6050 7449 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6050 7358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 5950 7400 50  0001 C CNN
+F 3 "~" H 5950 7400 50  0001 C CNN
+	1    5950 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5CCA661C
+P 5000 7000
+F 0 "#PWR0107" H 5000 6750 50  0001 C CNN
+F 1 "GND" H 5005 6827 50  0000 C CNN
+F 2 "" H 5000 7000 50  0001 C CNN
+F 3 "" H 5000 7000 50  0001 C CNN
+	1    5000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5CCA6E8E
+P 5950 7000
+F 0 "#PWR0108" H 5950 6750 50  0001 C CNN
+F 1 "GND" H 5955 6827 50  0000 C CNN
+F 2 "" H 5950 7000 50  0001 C CNN
+F 3 "" H 5950 7000 50  0001 C CNN
+	1    5950 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5CCA7769
+P 5000 7500
+F 0 "#PWR0109" H 5000 7250 50  0001 C CNN
+F 1 "GND" H 5005 7327 50  0000 C CNN
+F 2 "" H 5000 7500 50  0001 C CNN
+F 3 "" H 5000 7500 50  0001 C CNN
+	1    5000 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5CCA7B5F
+P 5950 7500
+F 0 "#PWR0110" H 5950 7250 50  0001 C CNN
+F 1 "GND" H 5955 7327 50  0000 C CNN
+F 2 "" H 5950 7500 50  0001 C CNN
+F 3 "" H 5950 7500 50  0001 C CNN
+	1    5950 7500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
