@@ -22,6 +22,7 @@ F 0 "J2" H 956 1478 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 1387 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 1300 50  0001 C CNN
 F 3 "~" H 850 1300 50  0001 C CNN
+F 4 "RND 205-00623" H 850 1300 50  0001 C CNN "Reichelt Part No"
 	1    850  1300
 	1    0    0    -1  
 $EndComp
@@ -33,6 +34,7 @@ F 0 "J1" H 956 1128 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 1037 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 950 50  0001 C CNN
 F 3 "~" H 850 950 50  0001 C CNN
+F 4 "RND 205-00623" H 850 950 50  0001 C CNN "Reichelt Part No"
 	1    850  950 
 	1    0    0    -1  
 $EndComp
@@ -44,6 +46,7 @@ F 0 "J4" H 956 2328 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 2237 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 2150 50  0001 C CNN
 F 3 "~" H 850 2150 50  0001 C CNN
+F 4 "RND 205-00623" H 850 2150 50  0001 C CNN "Reichelt Part No"
 	1    850  2150
 	1    0    0    -1  
 $EndComp
@@ -121,6 +124,7 @@ F 0 "J3" H 956 1978 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 1887 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 1800 50  0001 C CNN
 F 3 "~" H 850 1800 50  0001 C CNN
+F 4 "RND 205-00623" H 850 1800 50  0001 C CNN "Reichelt Part No"
 	1    850  1800
 	1    0    0    -1  
 $EndComp
@@ -146,7 +150,7 @@ F 0 "U2" H 7100 2192 50  0000 C CNN
 F 1 "L7815" H 7100 2101 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7125 1800 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 7100 1900 50  0001 C CNN
-F 4 "L7815CV STM" H 7100 1950 50  0001 C CNN "order number"
+F 4 "L7815CV STM" H 7100 1950 50  0001 C CNN "Reichelt Part No"
 	1    7100 1950
 	1    0    0    -1  
 $EndComp
@@ -158,7 +162,7 @@ F 0 "C5" H 7765 2196 50  0000 L CNN
 F 1 "0.1µF" H 7765 2105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7688 2000 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=B300%252FKEM_C0XXX_X7R_DB-EN.pdf" H 7650 2150 50  0001 C CNN
-F 4 "KEM X7R0805 100N" H 7650 2150 50  0001 C CNN "order number"
+F 4 "X7R-G0805 100N" H 7650 2150 50  0001 C CNN "Reichelt Part No"
 	1    7650 2150
 	1    0    0    -1  
 $EndComp
@@ -170,7 +174,7 @@ F 0 "C2" H 6615 2196 50  0000 L CNN
 F 1 "0.33µF" H 6615 2105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6538 2000 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A900%252FRND_0805_X7R_ENG_TDS.pdf" H 6500 2150 50  0001 C CNN
-F 4 "RND 1500805B3342" H 6500 2150 50  0001 C CNN "order number"
+F 4 "RND 1500805B3342" H 6500 2150 50  0001 C CNN "Reichelt Part No"
 	1    6500 2150
 	1    0    0    -1  
 $EndComp
@@ -182,7 +186,7 @@ F 0 "C8" H 8318 2196 50  0000 L CNN
 F 1 "220µF" H 8318 2105 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm" H 8238 2000 50  0001 C CNN
 F 3 "~" H 8200 2150 50  0001 C CNN
-F 4 "RND 150ECR AZ" H 8200 2150 50  0001 C CNN "order number"
+F 4 "RND 150ECR BA" H 8200 2150 50  0001 C CNN "Reichelt Part No"
 	1    8200 2150
 	1    0    0    -1  
 $EndComp
@@ -194,7 +198,7 @@ F 0 "D17" V 8654 2229 50  0000 L CNN
 F 1 "1N4001" V 8745 2229 50  0000 L CNN
 F 2 "Diode_SMD:D_MELF_Handsoldering" H 8700 1975 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A400%252FSMD1N400%2523DIO.pdf" H 8700 2150 50  0001 C CNN
-F 4 "1N 4001 SMD " V 8700 2150 50  0001 C CNN "order number"
+F 4 "1N 4001 SMD" H 8700 2150 50  0001 C CNN "Reichelt Part No"
 	1    8700 2150
 	0    1    1    0   
 $EndComp
@@ -206,7 +210,7 @@ F 0 "D13" H 7100 1766 50  0000 C CNN
 F 1 "1N4001" H 7100 1675 50  0000 C CNN
 F 2 "Diode_SMD:D_MELF_Handsoldering" H 7100 1375 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A400%252FSMD1N400%2523DIO.pdf" H 7100 1550 50  0001 C CNN
-F 4 "1N 4001 SMD " V 7100 1550 50  0001 C CNN "order number"
+F 4 "1N 4001 SMD" H 7100 1550 50  0001 C CNN "Reichelt Part No"
 	1    7100 1550
 	1    0    0    -1  
 $EndComp
@@ -268,7 +272,7 @@ F 0 "D5" H 5650 1734 50  0000 C CNN
 F 1 "D_Schottky" H 5650 1825 50  0000 C CNN
 F 2 "Diode_SMD:D_SMB" H 5650 1950 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A400%252FCD00002299.pdf" H 5650 1950 50  0001 C CNN
-F 4 "STPS 2L40U STM" H 5650 1950 50  0001 C CNN "order number"
+F 4 "STPS 2L40U STM" H 5650 1950 50  0001 C CNN "Reichelt Part No"
 	1    5650 1950
 	-1   0    0    1   
 $EndComp
@@ -281,7 +285,7 @@ F 0 "C6" H 7765 2596 50  0000 L CNN
 F 1 "0.1µF" H 7765 2505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7688 2400 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=B300%252FKEM_C0XXX_X7R_DB-EN.pdf" H 7650 2550 50  0001 C CNN
-F 4 "KEM X7R0805 100N" H 7650 2550 50  0001 C CNN "order number"
+F 4 "X7R-G0805 100N" H 7650 2550 50  0001 C CNN "Reichelt Part No"
 	1    7650 2550
 	1    0    0    -1  
 $EndComp
@@ -293,7 +297,7 @@ F 0 "C3" H 6615 2596 50  0000 L CNN
 F 1 "0.33µF" H 6615 2505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6538 2400 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A900%252FRND_0805_X7R_ENG_TDS.pdf" H 6500 2550 50  0001 C CNN
-F 4 "RND 1500805B3342" H 6500 2550 50  0001 C CNN "order number"
+F 4 "RND 1500805B3342" H 6500 2550 50  0001 C CNN "Reichelt Part No"
 	1    6500 2550
 	1    0    0    -1  
 $EndComp
@@ -305,7 +309,7 @@ F 0 "C9" H 8318 2596 50  0000 L CNN
 F 1 "220µF" H 8318 2505 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm" H 8238 2400 50  0001 C CNN
 F 3 "~" H 8200 2550 50  0001 C CNN
-F 4 "RND 150ECR AZ" H 8200 2550 50  0001 C CNN "order number"
+F 4 "RND 150ECR BA" H 8200 2550 50  0001 C CNN "Reichelt Part No"
 	1    8200 2550
 	1    0    0    -1  
 $EndComp
@@ -317,7 +321,7 @@ F 0 "D18" V 8654 2629 50  0000 L CNN
 F 1 "1N4001" V 8745 2629 50  0000 L CNN
 F 2 "Diode_SMD:D_MELF_Handsoldering" H 8700 2375 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A400%252FSMD1N400%2523DIO.pdf" H 8700 2550 50  0001 C CNN
-F 4 "1N 4001 SMD " V 8700 2550 50  0001 C CNN "order number"
+F 4 "1N 4001 SMD" H 8700 2550 50  0001 C CNN "Reichelt Part No"
 	1    8700 2550
 	0    1    1    0   
 $EndComp
@@ -329,7 +333,7 @@ F 0 "D14" H 7100 3366 50  0000 C CNN
 F 1 "1N4001" H 7100 3275 50  0000 C CNN
 F 2 "Diode_SMD:D_MELF_Handsoldering" H 7100 2975 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A400%252FSMD1N400%2523DIO.pdf" H 7100 3150 50  0001 C CNN
-F 4 "1N 4001 SMD " V 7100 3150 50  0001 C CNN "order number"
+F 4 "1N 4001 SMD" H 7100 3150 50  0001 C CNN "Reichelt Part No"
 	1    7100 3150
 	-1   0    0    1   
 $EndComp
@@ -365,7 +369,7 @@ F 0 "D6" H 5650 2534 50  0000 C CNN
 F 1 "D_Schottky" H 5650 2625 50  0000 C CNN
 F 2 "Diode_SMD:D_SMB" H 5650 2750 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A400%252FCD00002299.pdf" H 5650 2750 50  0001 C CNN
-F 4 "STPS 2L40U STM" H 5650 2750 50  0001 C CNN "order number"
+F 4 "STPS 2L40U STM" H 5650 2750 50  0001 C CNN "Reichelt Part No"
 	1    5650 2750
 	1    0    0    -1  
 $EndComp
@@ -401,6 +405,7 @@ F 0 "U3" H 7100 2600 50  0000 C CNN
 F 1 "L7915" H 7100 2509 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7100 2550 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf" H 7100 2750 50  0001 C CNN
+F 4 "L7915CV STM" H 7100 2750 50  0001 C CNN "Reichelt Part No"
 	1    7100 2750
 	1    0    0    -1  
 $EndComp
@@ -494,7 +499,7 @@ F 0 "C4" H 7715 5546 50  0000 L CNN
 F 1 "0.1µF" H 7715 5455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7638 5350 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=B300%252FKEM_C0XXX_X7R_DB-EN.pdf" H 7600 5500 50  0001 C CNN
-F 4 "KEM X7R0805 100N" H 7600 5500 50  0001 C CNN "order number"
+F 4 "X7R-G0805 100N" H 7600 5500 50  0001 C CNN "Reichelt Part No"
 	1    7600 5500
 	1    0    0    -1  
 $EndComp
@@ -506,7 +511,7 @@ F 0 "C1" H 6565 5546 50  0000 L CNN
 F 1 "0.33µF" H 6565 5455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6488 5350 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A900%252FRND_0805_X7R_ENG_TDS.pdf" H 6450 5500 50  0001 C CNN
-F 4 "RND 1500805B3342" H 6450 5500 50  0001 C CNN "order number"
+F 4 "RND 1500805B3342" H 6450 5500 50  0001 C CNN "Reichelt Part No"
 	1    6450 5500
 	1    0    0    -1  
 $EndComp
@@ -518,7 +523,7 @@ F 0 "C7" H 8268 5546 50  0000 L CNN
 F 1 "220µF" H 8268 5455 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm" H 8188 5350 50  0001 C CNN
 F 3 "~" H 8150 5500 50  0001 C CNN
-F 4 "RND 150ECR AZ" H 8150 5500 50  0001 C CNN "order number"
+F 4 "RND 150ECR BA" H 8150 5500 50  0001 C CNN "Reichelt Part No"
 	1    8150 5500
 	1    0    0    -1  
 $EndComp
@@ -530,7 +535,7 @@ F 0 "D16" V 8604 5579 50  0000 L CNN
 F 1 "1N4001" V 8695 5579 50  0000 L CNN
 F 2 "Diode_SMD:D_MELF_Handsoldering" H 8650 5325 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A400%252FSMD1N400%2523DIO.pdf" H 8650 5500 50  0001 C CNN
-F 4 "1N 4001 SMD " V 8650 5500 50  0001 C CNN "order number"
+F 4 "1N 4001 SMD" H 8650 5500 50  0001 C CNN "Reichelt Part No"
 	1    8650 5500
 	0    1    1    0   
 $EndComp
@@ -574,7 +579,7 @@ F 0 "D9" H 5700 5084 50  0000 C CNN
 F 1 "D_Schottky" H 5700 5175 50  0000 C CNN
 F 2 "Diode_SMD:D_SMB" H 5700 5300 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A400%252FCD00002299.pdf" H 5700 5300 50  0001 C CNN
-F 4 "STPS 2L40U STM" H 5700 5300 50  0001 C CNN "order number"
+F 4 "STPS 2L40U STM" H 5700 5300 50  0001 C CNN "Reichelt Part No"
 	1    5700 5300
 	-1   0    0    1   
 $EndComp
@@ -621,6 +626,7 @@ F 0 "U1" H 7050 5542 50  0000 C CNN
 F 1 "L7805" H 7050 5451 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7075 5150 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 7050 5250 50  0001 C CNN
+F 4 "L7805CV-DG STM" H 7050 5300 50  0001 C CNN "Reichelt Part No"
 	1    7050 5300
 	1    0    0    -1  
 $EndComp
@@ -649,7 +655,7 @@ F 0 "D1" V 1338 6533 50  0000 R CNN
 F 1 "LED" V 1247 6533 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1300 6650 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A500%252FLG_R971_GER_ENG_TDS.pdf" H 1300 6650 50  0001 C CNN
-F 4 "OSO LGR971" V 1300 6650 50  0001 C CNN "order number"
+F 4 "OSO LGR971" H 1300 6650 50  0001 C CNN "Reichelt Part No"
 	1    1300 6650
 	0    -1   -1   0   
 $EndComp
@@ -661,7 +667,7 @@ F 0 "R1" H 1370 6196 50  0000 L CNN
 F 1 "1k5" H 1370 6105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1230 6150 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=B300%252FRND_SMD_RESISTORS_ENG_TDS.pdf" H 1300 6150 50  0001 C CNN
-F 4 "RND 1550805 CN" H 1300 6150 50  0001 C CNN "order number"
+F 4 "RND 1550805 CN" H 1300 6150 50  0001 C CNN "Reichelt Part No"
 	1    1300 6150
 	1    0    0    -1  
 $EndComp
@@ -673,7 +679,7 @@ F 0 "D2" V 1838 6533 50  0000 R CNN
 F 1 "LED" V 1747 6533 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1800 6650 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A500%252FLG_R971_GER_ENG_TDS.pdf" H 1800 6650 50  0001 C CNN
-F 4 "OSO LGR971" V 1800 6650 50  0001 C CNN "order number"
+F 4 "OSO LGR971" H 1800 6650 50  0001 C CNN "Reichelt Part No"
 	1    1800 6650
 	0    1    1    0   
 $EndComp
@@ -685,7 +691,7 @@ F 0 "R2" H 1870 6196 50  0000 L CNN
 F 1 "1k5" H 1870 6105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1730 6150 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=B300%252FRND_SMD_RESISTORS_ENG_TDS.pdf" H 1800 6150 50  0001 C CNN
-F 4 "RND 1550805 CN" H 1800 6150 50  0001 C CNN "order number"
+F 4 "RND 1550805 CN" H 1800 6150 50  0001 C CNN "Reichelt Part No"
 	1    1800 6150
 	1    0    0    -1  
 $EndComp
@@ -697,7 +703,7 @@ F 0 "D3" V 2288 6533 50  0000 R CNN
 F 1 "LED" V 2197 6533 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2250 6650 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A500%252FLG_R971_GER_ENG_TDS.pdf" H 2250 6650 50  0001 C CNN
-F 4 "OSO LGR971" V 2250 6650 50  0001 C CNN "order number"
+F 4 "OSO LGR971" H 2250 6650 50  0001 C CNN "Reichelt Part No"
 	1    2250 6650
 	0    -1   -1   0   
 $EndComp
@@ -706,10 +712,10 @@ L Device:R R3
 U 1 1 5CCB9888
 P 2250 6150
 F 0 "R3" H 2320 6196 50  0000 L CNN
-F 1 "330R" H 2320 6105 50  0000 L CNN
+F 1 "330" H 2320 6105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2180 6150 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=B300%252FRND_SMD_0805_RESISTOR_2017.pdf" H 2250 6150 50  0001 C CNN
-F 4 "RND 0805 1 330" H 2250 6150 50  0001 C CNN "order number"
+F 4 "RND 0805 1 330" H 2250 6150 50  0001 C CNN "Reichelt Part No"
 	1    2250 6150
 	1    0    0    -1  
 $EndComp
@@ -784,7 +790,7 @@ F 0 "D11" H 7050 5116 50  0000 C CNN
 F 1 "1N4001" H 7050 5025 50  0000 C CNN
 F 2 "Diode_SMD:D_MELF_Handsoldering" H 7050 4725 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A400%252FSMD1N400%2523DIO.pdf" H 7050 4900 50  0001 C CNN
-F 4 "1N 4001 SMD " V 7050 4900 50  0001 C CNN "order number"
+F 4 "1N 4001 SMD" H 7050 4900 50  0001 C CNN "Reichelt Part No"
 	1    7050 4900
 	1    0    0    -1  
 $EndComp
@@ -796,6 +802,7 @@ F 0 "J5" H 868 3567 50  0000 C CNN
 F 1 "Screw_Terminal_01x04" H 868 3476 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-4_P5.08mm" H 950 3250 50  0001 C CNN
 F 3 "~" H 950 3250 50  0001 C CNN
+F 4 "RND 205-00014" H 950 3250 50  0001 C CNN "Reichelt Part No"
 	1    950  3250
 	-1   0    0    -1  
 $EndComp
@@ -824,6 +831,7 @@ F 0 "JP2" V 4704 5366 50  0000 L CNN
 F 1 "Jumper_3_Bridged12" V 4795 5366 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4750 5300 50  0001 C CNN
 F 3 "~" H 4750 5300 50  0001 C CNN
+F 4 "RND 205-00624" H 4750 5300 50  0001 C CNN "Reichelt Part No"
 	1    4750 5300
 	0    -1   1    0   
 $EndComp
@@ -835,6 +843,7 @@ F 0 "JP1" V 1796 3917 50  0000 L CNN
 F 1 "Jumper_3_Bridged12" V 1705 3917 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1750 3850 50  0001 C CNN
 F 3 "~" H 1750 3850 50  0001 C CNN
+F 4 "RND 205-00624" H 1750 3850 50  0001 C CNN "Reichelt Part No"
 	1    1750 3850
 	0    1    -1   0   
 $EndComp
