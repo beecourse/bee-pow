@@ -862,89 +862,89 @@ U3_1
 Wire Wire Line
 	1800 6950 1800 6800
 $Comp
-L Mechanical-emt:Silkscreen_Label H1
+L Mechanical-bee:Silkscreen_Label H1
 U 1 1 5CC84E73
 P 3000 6700
 F 0 "H1" H 3125 6745 50  0000 L CNN
 F 1 "Silkscreen_Label" H 3125 6654 50  0000 L CNN
-F 2 "Symbol-emt:Text_U_B+_Silkscreen" H 3000 6700 50  0001 C CNN
+F 2 "Symbol-bee:Text_U_B+_Silkscreen" H 3000 6700 50  0001 C CNN
 F 3 "~" H 3000 6700 50  0001 C CNN
 	1    3000 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H2
+L Mechanical-bee:Silkscreen_Label H2
 U 1 1 5CC86235
 P 3000 6900
 F 0 "H2" H 3125 6945 50  0000 L CNN
 F 1 "Silkscreen_Label" H 3125 6854 50  0000 L CNN
-F 2 "Symbol-emt:Text_U_B+_Silkscreen" H 3000 6900 50  0001 C CNN
+F 2 "Symbol-bee:Text_U_B+_Silkscreen" H 3000 6900 50  0001 C CNN
 F 3 "~" H 3000 6900 50  0001 C CNN
 	1    3000 6900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H3
+L Mechanical-bee:Silkscreen_Label H3
 U 1 1 5CC865CE
 P 3000 7100
 F 0 "H3" H 3125 7145 50  0000 L CNN
 F 1 "Silkscreen_Label" H 3125 7054 50  0000 L CNN
-F 2 "Symbol-emt:Text_U_B-_Silkscreen" H 3000 7100 50  0001 C CNN
+F 2 "Symbol-bee:Text_U_B-_Silkscreen" H 3000 7100 50  0001 C CNN
 F 3 "~" H 3000 7100 50  0001 C CNN
 	1    3000 7100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H4
+L Mechanical-bee:Silkscreen_Label H4
 U 1 1 5CC8C4D2
 P 3000 7300
 F 0 "H4" H 3125 7345 50  0000 L CNN
 F 1 "Silkscreen_Label" H 3125 7254 50  0000 L CNN
-F 2 "Symbol-emt:Text_U_B-_Silkscreen" H 3000 7300 50  0001 C CNN
+F 2 "Symbol-bee:Text_U_B-_Silkscreen" H 3000 7300 50  0001 C CNN
 F 3 "~" H 3000 7300 50  0001 C CNN
 	1    3000 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H5
+L Mechanical-bee:Silkscreen_Label H5
 U 1 1 5CC8C802
 P 3900 6700
 F 0 "H5" H 4025 6745 50  0000 L CNN
 F 1 "Silkscreen_Label" H 4025 6654 50  0000 L CNN
-F 2 "Symbol-emt:Text_U_B2_Silkscreen" H 3900 6700 50  0001 C CNN
+F 2 "Symbol-bee:Text_U_B2_Silkscreen" H 3900 6700 50  0001 C CNN
 F 3 "~" H 3900 6700 50  0001 C CNN
 	1    3900 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H6
+L Mechanical-bee:Silkscreen_Label H6
 U 1 1 5CC8CC95
 P 3900 6900
 F 0 "H6" H 4025 6945 50  0000 L CNN
 F 1 "Silkscreen_Label" H 4025 6854 50  0000 L CNN
-F 2 "Symbol-emt:Text_U_B2_Silkscreen" H 3900 6900 50  0001 C CNN
+F 2 "Symbol-bee:Text_U_B2_Silkscreen" H 3900 6900 50  0001 C CNN
 F 3 "~" H 3900 6900 50  0001 C CNN
 	1    3900 6900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H7
+L Mechanical-bee:Silkscreen_Label H7
 U 1 1 5CC8CECB
 P 3900 7100
 F 0 "H7" H 4025 7145 50  0000 L CNN
 F 1 "Silkscreen_Label" H 4025 7054 50  0000 L CNN
-F 2 "Symbol-emt:Symbol_GND_Silkscreen" H 3900 7100 50  0001 C CNN
+F 2 "Symbol-bee:Symbol_GND_Silkscreen" H 3900 7100 50  0001 C CNN
 F 3 "~" H 3900 7100 50  0001 C CNN
 	1    3900 7100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H8
+L Mechanical-bee:Silkscreen_Label H8
 U 1 1 5CC8D0ED
 P 3900 7300
 F 0 "H8" H 4025 7345 50  0000 L CNN
 F 1 "Silkscreen_Label" H 4025 7254 50  0000 L CNN
-F 2 "Symbol-emt:Symbol_GND_Silkscreen" H 3900 7300 50  0001 C CNN
+F 2 "Symbol-bee:Symbol_GND_Silkscreen" H 3900 7300 50  0001 C CNN
 F 3 "~" H 3900 7300 50  0001 C CNN
 	1    3900 7300
 	1    0    0    -1  
@@ -1038,23 +1038,23 @@ F 3 "" H 5950 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H13
+L Mechanical-bee:Silkscreen_Label H13
 U 1 1 5CCCD487
 P 3000 7500
 F 0 "H13" H 3125 7545 50  0000 L CNN
 F 1 "Silkscreen_Label" H 3125 7454 50  0000 L CNN
-F 2 "Symbol-emt:EMT-Logo_5.1x2.5mm_Silkscreen" H 3000 7500 50  0001 C CNN
+F 2 "Symbol-bee:EMT-Logo_5.1x2.5mm_Silkscreen" H 3000 7500 50  0001 C CNN
 F 3 "~" H 3000 7500 50  0001 C CNN
 	1    3000 7500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H14
+L Mechanical-bee:Silkscreen_Label H14
 U 1 1 5CCCD4F9
 P 3900 7500
 F 0 "H14" H 4025 7545 50  0000 L CNN
 F 1 "Silkscreen_Label" H 4025 7454 50  0000 L CNN
-F 2 "Symbol-emt:BEE-Logo_Silkscreen_small" H 3900 7500 50  0001 C CNN
+F 2 "Symbol-bee:BEE-Logo_Silkscreen_small" H 3900 7500 50  0001 C CNN
 F 3 "~" H 3900 7500 50  0001 C CNN
 	1    3900 7500
 	1    0    0    -1  
