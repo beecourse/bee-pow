@@ -10,3 +10,4 @@ The value of U_B2 depends on the jumpers at JP1 and JP2 according to the followi
  `--o` | `--o` | 5 V generated from U3
  `o--` | `ooo` | U3
 
+<img src="figures/pow-front.png" alt="Front view of PCB" width="250"/>
